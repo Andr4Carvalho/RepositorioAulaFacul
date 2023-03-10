@@ -23,15 +23,29 @@ namespace ConsoleApp2_Noite
         {
             return Descricao;
         }
+        public void setDescricao(string descricao)
+        {
+            Descricao = descricao;
+        }
 
         public decimal getValor()
         {
             return Valor;
         }
 
+        public void setValor(decimal valor)
+        {
+            Valor = valor;
+        }
+
         public int getId()
         {
             return Id;
+        }
+
+        public void setId(int id)
+        {
+            Id = id;
         }
     }
 }
