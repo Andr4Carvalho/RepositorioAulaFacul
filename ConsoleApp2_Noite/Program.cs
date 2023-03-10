@@ -2,9 +2,6 @@
 
 Console.WriteLine("Hello, World!");
 
-List<Cliente> clientes = new List<Cliente>();
+Produto p1 = new Produto(1, 10.90M, "Cervejinha");
 
-for(int i = 0; i < 5000; i++)
-{
-    string nome = "Cliente {i}";
-}
+Console.WriteLine(p1.getDescricao() + " " + p1.getId());
