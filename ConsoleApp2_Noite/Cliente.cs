@@ -31,6 +31,16 @@ namespace ConsoleApp2_Noite
             Id = id;
         }
 
+        public Endereco getEndereco()
+        {
+            return Endereco;
+        }
+
+        public void setEndereco(Endereco endereco)
+        {
+            Endereco = endereco;
+        }
+
         public string getNome()
         {
             return Nome;

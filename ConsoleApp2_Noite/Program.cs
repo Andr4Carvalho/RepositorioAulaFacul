@@ -17,8 +17,18 @@ Endereco endereco = new Endereco(
     "Taquaritinga",
     "SP");
 
+Endereco endereco2 = new Endereco(
+    "Rua Mario Bizaria",
+    "91",
+    "Sobral",
+    "15906304",
+    "São Carlos",
+    "SP");
+
 Cliente c1 = new Cliente(1, "Gabriele", "991340447", endereco);
 Cliente c2 = new Cliente(2, "Gabriela", "991340447", endereco);
-Cliente c3 = new Cliente(3, "Gabriele", "991340447", endereco);
-Cliente c4 = new Cliente(4, "Gabriele", "991340447", endereco);
-Cliente c5 = new Cliente(5, "Gabriele", "991340447", endereco);
+Cliente c3 = new Cliente(3, "Ryan", "991340447", endereco);
+Cliente c4 = new Cliente(4, "Fernanda", "991340447", endereco);
+Cliente c5 = new Cliente(5, "Giovanni", "991340447", endereco2);
+
+Console.WriteLine(c5.getEndereco().getCidade());
