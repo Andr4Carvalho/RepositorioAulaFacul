@@ -12,12 +12,14 @@ namespace ConsoleApp2_Noite
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Telefone { get; set; }
+        private Endereco Endereco;
 
-        public Cliente(int id, string nome, string telefone)
+        public Cliente(int id, string nome, string telefone, Endereco endereco)
         {
             Id = id;
             Nome = nome;
             Telefone = telefone;
+            Endereco = endereco;
         }
 
         public int getId()
