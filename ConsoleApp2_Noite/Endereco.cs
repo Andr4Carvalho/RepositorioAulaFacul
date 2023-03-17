@@ -38,6 +38,7 @@ namespace ConsoleApp2_Noite
         public string getBairro() {  return Bairro; }
         public string getCep() { return Cep; }
         public string getCidade() {  return Cidade; }
-        public string getEstado() {  return Estado; }
+        public string getEstado() {  return Estado; }        
+        public string getEndCompleto(){ return Rua + ", " + Numero + ", " + Bairro + ", " + Cidade + ", " + Estado; }
     }
 }
