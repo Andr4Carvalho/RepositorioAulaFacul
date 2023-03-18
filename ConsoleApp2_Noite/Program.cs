@@ -1,4 +1,14 @@
 ﻿using ConsoleApp2_Noite;
+using ConsoleApp2_Noite.Heranca;
+
+for(int i = 0; i < 560; i++)
+{
+    Produto produto +  = new Produto(i, 10.90M + i, "Cervejinha" + i);
+}
+
+
+
+
 
 Produto p1 = new Produto(1, 10.90M, "Cervejinha");
 
@@ -37,3 +47,13 @@ c2.getEndereco().setNumero("135");
 
 Console.WriteLine(c2.getEndereco().getNumero());
 Console.WriteLine(c2.getEndereco().getEndCompleto());
+
+Carro gol =  new Carro();
+Carro palio = new Carro();
+Carro jetta = new Carro();
+gol.numPortas = 2;
+palio.numPortas = 2;
+jetta.numPortas = 4;
+
+Console.WriteLine(jetta.ExibirDados());
+
